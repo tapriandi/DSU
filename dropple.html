@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSF 2024</title>
+
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            height: 200vh;
+        }
+        .logo {
+            position: fixed;
+            top: 30px;
+            left: 60px;
+        }
+        .sun {
+            width: 40px;
+            height: 40px;
+        }
+        .sun-menu {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .hero {
+            height: 200px;
+            background-color: #E7E4E0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .dopple-text {
+            height: 45%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img class="sun" src="./sun.png" alt="">
+        <img class="sun sun-menu" src="./sun-menu.png" alt="">
+    </div>
+    <section class="hero">
+        <img class="dopple-text" src="./dopple-text.png" alt="">
+    </section>
+    <section>
+        <marquee>This text will scroll from right to left</marquee>
+    </section>
+</body>
+</html>
